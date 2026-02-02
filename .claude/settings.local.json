@@ -1,8 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(python:*)",
+      "Bash(where:*)",
+      "Bash(if not exist \"reports\" mkdir reports)",
+      "Bash(curl:*)",
+      "mcp__zhipu_web_search__webSearchStd",
+      "mcp__zhipu_web_reader__webReader",
+      "Bash(if not exist reports mkdir reports)",
+      "Bash(if not exist \"reports\\\\金价\" mkdir \"reports\\\\金价\")",
+      "Bash(if not exist \"reports\\\\金价\\\\20260202\" mkdir \"reports\\\\金价\\\\20260202\")",
+      "Bash(if not exist \"reports\\\\尼帕病毒\" mkdir \"reports\\\\尼帕病毒\")",
+      "Bash(if not exist \"reports\\\\尼帕病毒\\\\20260202\" mkdir \"reports\\\\尼帕病毒\\\\20260202\")",
+      "mcp__jina-reader__webReader",
+      "mcp__zhipu_web_search__webSearchPro",
+      "mcp__zhipu_web_search__webSearchSogou"
     ]
   }
 }

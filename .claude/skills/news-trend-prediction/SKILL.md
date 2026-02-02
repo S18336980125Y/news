@@ -1,5 +1,5 @@
 ---
-name: news-trend-prediction 新闻趋势预测
+name: news-trend-prediction
 description: 对新闻事件进行趋势预测，分析可能的发展方向。
 ---
 

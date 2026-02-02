@@ -1,6 +1,6 @@
 ---
-name: news-verification 新闻真实性验证
-description: 对新闻进行真实性验证，识别虚假或误导性信息。
+name: news-verification
+description: 对新闻进行真实性验证，识别虚假或误导性信息。可使用zhipu_web_search进行网页查询
 ---
 
 # 新闻真实性验证
@@ -24,4 +24,4 @@ description: 对新闻进行真实性验证，识别虚假或误导性信息。
    - 真实性评分（1-10分）
    - 可信度等级（高/中/低）
    - 主要疑点标注
-   - 建议参考来源包含网络链接url
+   - 每一行真实性依据都需要有当前依据的网络链接url
