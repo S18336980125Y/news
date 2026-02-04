@@ -32,6 +32,6 @@ description: 使用jina-reader爬取完整的新闻内容，转换为Markdown格
   "source": "来源媒体",
   "published_time": "发布时间",
   "url": "原文链接也就是link",
-  "content": "## 新闻标题\\n\\n正文内容（Markdown格式）\\n\\n![图片描述](图片URL)\\n\\n...",
+  "content": "## 新闻标题\\n\\n正文内容（Markdown格式）\\n\\n![图片描述](图片URL)\\n\\n..."
 }
 ```
